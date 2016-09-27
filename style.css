@@ -1,0 +1,285 @@
+@import 'https://fonts.googleapis.com/css?family=Open+Sans';
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*комментарий*/
+body {
+background-color: #eee;
+
+}
+#page {
+width: 980px;
+margin: 0 auto;
+
+}
+.strong-red {
+margin-top: 550px;
+font-weight: bold;
+color: #ffffff;
+text-align: justify;
+text-decoration: none;
+text-transform: uppercase;
+text-indent: 30px;
+letter-spacing: 2px;
+word-spacing: 40px;
+line-height: 30px;
+font-family: "Open Sans", sans-serif;
+
+}
+.light-blue {
+font-weight: bolder;
+color: blue;
+}
+.light-blue {
+font-size: 18px;
+color: black;
+}
+.strong-red {
+
+}
+#styles li {
+color: #fff;
+font-family: "Open Sans", sans-serif;
+list-style-type: circle;
+list-style-image: url(image/sds.png);
+list-style-position: inside;
+/*list-style: circle url(image/sds.png) inside или записывать так*/
+padding: 5px;
+border: 1px solid #fff;
+}
+
+#styles li:hover{
+background: #567333;
+}
+#navigation{
+ width: 900px;
+  height: 85px;
+margin-left: 150px;
+
+}
+
+#navigation ul li {
+  float: left;
+  position: relative;
+}
+
+#navigation ul li a {
+color: #391333;
+padding: 0 7px;
+font-family: "Open Sans", sans-serif;
+text-transform: uppercase;
+font-size: 14px;
+text-decoration: none;
+line-height: 85px;
+display: block;
+height: 85px;
+
+}
+
+#navigation ul li a:hover {
+
+color: #FF5722;
+text-decoration: ;
+}
+
+#navigation .dropdown {
+      position: absolute;
+      top: 100%;
+      width: 150;
+      background: #ffffff;
+      display: none;
+}
+#navigation li:hover .dropdown{
+display: block;
+}
+#navigation .dropdown li{
+width: 100%;
+height: 45px;
+}
+#navigation .dropdown li a{
+line-height: 35px;
+height: 35px;
+}
+#header {
+
+    height: 100px;
+    position: ;
+}
+
+.logo {
+    display: block;
+    position: absolute;
+top: -50px;
+left: 150px;
+}
+
+
+
+.search {
+    position: absolute;
+right: 100px;
+top: 40px;
+}
+
+
+#name-course {
+width: 1150px;
+  height: 150px;
+margin-left: 150px;
+}
+#course {
+  width: 400px;
+  padding-right: 10px;
+float: left;
+}
+#course  p {
+font-family: "Open Sans", sans-serif;
+font-size: 36px;
+color: #FF5722;
+font-weight: bolder;
+text-transform: uppercase;
+
+}
+#course ul li{
+margin-top: 30px;
+margin-left: 40px;
+font-family: "Open Sans",sans-serif;
+font-size: 18px;
+}
+
+#text-right {
+float: right;
+width: 650px;
+font-family: "Open Sans", sans-serif;
+font-size: 18px;
+}
+#text-right p{
+line-height: 1.2;
+}
+
+#footer {
+float: left;
+}
+
+
+.hexagon {
+  position: relative;
+  width: 20px;
+  height: 11.55px;
+  background-color: #FF5722;
+  margin: 5.77px 0;
+}
+
+.hexagon:before,
+.hexagon:after {
+  content: "";
+  position: absolute;
+  width: 0;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+}
+
+.hexagon:before {
+  bottom: 100%;
+  border-bottom: 5.77px solid #FF5722;
+}
+
+.hexagon:after {
+  top: 100%;
+  width: ;
+  border-top: 5.77px solid #FF5722;
+}
+.container{overflow:hidden;width:400px;  }
+.box{white-space:nowrap}
+.box div{ position: relative;left: 90px;  display:inline-block; border:1px    }
+.container {
+position: relative;
+bottom: 18px;
+left: 60px;
+
+}
+
+
+.card {
+  background: #fff;
+  border-radius: 3px;
+  display: inline-block;
+  height: 300px;
+  margin: 100px;;
+  position: relative;
+  width: 1200px;
+}
+.card-4 {
+  box-shadow: 0 14px 28px rgba(0,0,0,0.25), 0 10px 10px rgba(0,0,0,0.22);
+}
+.card-4 p {
+font-family: "Open Sans", sans-serif;
+font-size: 48px;
+color: #FF5722;
+font-weight: bolder;
+text-transform: none;
+margin-left: 250px;
+margin-top: 60px;
+
+}
+.card-4 img {
+margin-left: 480px;
+display:block;
+margin-top: 15px;
+
+
+
+}
+
+
+
+
+
+
+
